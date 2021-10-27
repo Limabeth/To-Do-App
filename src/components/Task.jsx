@@ -22,7 +22,7 @@ const Task = (props) => {
       {props.isEditItems ? (
         <div className="delete-sign" onClick={deleteTask}></div>
       ) : (
-        <input type="radio" id={props.id}></input>
+        <input type="radio" name="task" id={props.id}></input>
       )}
       {props.isEditItems ? (
         <p onClick={editTask}>{props.title}</p>
