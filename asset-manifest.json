@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/To-Do-App/static/css/main.2a227988.chunk.css",
+    "main.js": "/To-Do-App/static/js/main.5dc3156b.chunk.js",
+    "main.js.map": "/To-Do-App/static/js/main.5dc3156b.chunk.js.map",
+    "runtime-main.js": "/To-Do-App/static/js/runtime-main.1d4bb7a8.js",
+    "runtime-main.js.map": "/To-Do-App/static/js/runtime-main.1d4bb7a8.js.map",
+    "static/js/2.54ef9cee.chunk.js": "/To-Do-App/static/js/2.54ef9cee.chunk.js",
+    "static/js/2.54ef9cee.chunk.js.map": "/To-Do-App/static/js/2.54ef9cee.chunk.js.map",
+    "index.html": "/To-Do-App/index.html",
+    "static/css/main.2a227988.chunk.css.map": "/To-Do-App/static/css/main.2a227988.chunk.css.map",
+    "static/js/2.54ef9cee.chunk.js.LICENSE.txt": "/To-Do-App/static/js/2.54ef9cee.chunk.js.LICENSE.txt",
+    "static/media/Navbar.scss": "/To-Do-App/static/media/GilroyMedium.1c23f810.ttf",
+    "static/media/index.css": "/To-Do-App/static/media/bg.d205a667.jpg",
+    "static/media/AddButton.scss": "/To-Do-App/static/media/plus_svg.138a8e0d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d4bb7a8.js",
+    "static/js/2.54ef9cee.chunk.js",
+    "static/css/main.2a227988.chunk.css",
+    "static/js/main.5dc3156b.chunk.js"
+  ]
+}
