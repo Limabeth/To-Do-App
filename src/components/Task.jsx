@@ -58,9 +58,7 @@ const Tasks = ({ items, isEditItems, setItem, deleteItem, startEditItem }) => {
 
 const mapStateToProps = (state) => {
   return {
-    title: state.title,
     items: state.items,
-    isEditItem: state.isEditItem,
     isEditItems: state.isEditItems,
   };
 };
@@ -70,11 +68,6 @@ const mapDispatchToProps = (dispatch) => {
     setItem: (item) => dispatch(actionTypes.setItem(item)),
     deleteItem: () => dispatch(actionTypes.deleteItem()),
     startEditItem: () => dispatch(actionTypes.startEditItem()),
-    //setTitle: (title) => dispatch(actionTypes.setTitle(title)),
-    //addItem: () => dispatch(actionTypes.addItem()),
-    //editItem: () => dispatch(actionTypes.editItem()),
-    //startEdit: () => dispatch(actionTypes.startEdit()),
-    //cancelEdit: () => dispatch(actionTypes.cancelEdit())
   };
 };
 
