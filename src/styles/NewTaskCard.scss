@@ -1,0 +1,47 @@
+@import "colors.scss";
+@import "mixins.scss";
+
+.new-task-card {
+    textarea {
+      width: 100%;
+      height: calc(160px - 40px);
+      max-height: calc(160px - 40px);
+      padding: 20px 20px;
+      margin: 0 0 30px 0;
+  
+      border: 2px solid $secondary-gray;
+      outline: none;
+      border-radius: 10px;
+    }
+  
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      button {
+        width: 137px;
+        height: 40px;
+        
+        border: none;
+        border-radius: 10px;
+        outline: none;
+
+        @include HoverTransition;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+  
+      .cancel-btn {
+        background: $primary-gray;
+      }
+  
+      .save-btn {
+        color: white;
+        background: $primary-blue;
+      }
+    }
+  }
+  
