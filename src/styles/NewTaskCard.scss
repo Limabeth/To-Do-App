@@ -3,6 +3,7 @@
 
 .new-task-card {
     textarea {
+      resize: none;
       width: 100%;
       height: calc(160px - 40px);
       max-height: calc(160px - 40px);
@@ -12,6 +13,7 @@
       border: 2px solid $secondary-gray;
       outline: none;
       border-radius: 10px;
+
     }
   
     div {
